@@ -3,35 +3,35 @@ export default function Settings() {
     <>
       <nav className="navbar navbar-light">
         <div className="container">
-          <a className="navbar-brand" href="/#">
+          <a className="navbar-brand" href="/">
             conduit
           </a>
           <ul className="nav navbar-nav pull-xs-right">
             <li className="nav-item">
               {/* Add "active" class when you're on that page" */}
-              <a className="nav-link active" href="/#">
+              <a className="nav-link active" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#/editor">
+              <a className="nav-link" href="/editor">
                 <i className="ion-compose" />
                 &nbsp;New Article
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#/settings">
+              <a className="nav-link" href="/settings">
                 <i className="ion-gear-a" />
                 &nbsp;Settings
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#/login">
+              <a className="nav-link" href="/login">
                 Sign in
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#/register">
+              <a className="nav-link" href="/register">
                 Sign up
               </a>
             </li>
@@ -66,7 +66,7 @@ export default function Settings() {
                 </fieldset>
               </form>
               <hr />
-              <a className="btn btn-outline-danger" href="/#/logout">
+              <a className="btn btn-outline-danger" href="/logout">
                 Or click here to logout.
               </a>
             </div>
@@ -76,7 +76,7 @@ export default function Settings() {
 
       <footer>
         <div className="container">
-          <a href="/#" className="logo-font">
+          <a href="/" className="logo-font">
             conduit
           </a>
           <span className="attribution">
