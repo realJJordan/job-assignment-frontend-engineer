@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Article from "./Article";
-import ArticleList from "./ArticleList";
-import Editor from "./Editor";
-import LoginRegister from "./LoginRegister";
-import Logout from "./Logout";
-import Profile from "./Profile";
-import Settings from "./Settings";
+import Article from "./routes/article/Article";
+import ArticleList from "./routes/landing/ArticleList";
+import Editor from "./routes/editor/Editor";
+import LoginRegister from "./routes/login/LoginRegister";
+import Logout from "./routes/logout/Logout";
+import Profile from "./routes/profile/Profile";
+import Settings from "./routes/settings/Settings";
 
 const App = () => (
   <BrowserRouter future={{ v7_relativeSplatPath: true, v7_startTransition: true }}>
