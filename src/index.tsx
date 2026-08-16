@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import "@styles/global.css";
 
 const root = document.getElementById("root");
 
@@ -12,7 +13,7 @@ if (root === null) {
 
 ReactDOM.createRoot(root).render(
   <React.StrictMode>
-    <App />,
+    <App />
   </React.StrictMode>
 );
 

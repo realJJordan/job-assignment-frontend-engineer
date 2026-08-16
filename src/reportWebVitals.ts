@@ -1,5 +1,6 @@
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-type ReportHandler = (metric: any) => void; // any is forced by type only import being banned
+import { Metric } from "web-vitals";
+
+type ReportHandler = (metric: Metric) => void;
 
 const reportWebVitals = (onPerfEntry?: ReportHandler) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
